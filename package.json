@@ -3,7 +3,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node src/App.js",
     "build": "react-scripts build"
   },
   "dependencies": {
