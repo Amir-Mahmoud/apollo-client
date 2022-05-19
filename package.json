@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
-    "build": "yarn install && yarn build"
+    "build": "react-scripts build"
   },
   "dependencies": {
     "@apollo/client": "^3.6.0",
