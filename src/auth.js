@@ -4,7 +4,8 @@
 
 const ACCESS_TOKEN_KEY = 'accessToken';
 //const API_URL = 'http://localhost:9000';
-const API_URL = 'https://apollo-qraphql.herokuapp.com';
+//const API_URL = 'https://apollo-qraphql.herokuapp.com';
+const API_URL = 'http://apolloserver-env.eba-bprj27np.us-east-1.elasticbeanstalk.com';
 
 export function getAccessToken() {
   return localStorage.getItem(ACCESS_TOKEN_KEY);
